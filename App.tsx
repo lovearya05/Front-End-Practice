@@ -15,7 +15,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import UseImperativeHandling from './app/TestComponent';
+import UseImperativeHandling from './app/UseImperativeHandling';
 
 
 function App(): React.JSX.Element {
