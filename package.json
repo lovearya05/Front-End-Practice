@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "pod": "cd ios/ && rm -rf ./Podfile.lock && pod install && cd ..",
+    "clean": "rm -rf ios/Pods && rm -rf ios/Podfile.lock && rm -rf node_modules && rm -rf yarn.lock && rm -rf Gemfile.lock"
   },
   "dependencies": {
     "react": "18.2.0",

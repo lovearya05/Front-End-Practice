@@ -72,3 +72,11 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+Gemfile.lock
+.yarn
+Gemfile.lock
+Podfile.lock
+yarn.lock
+.vscode
